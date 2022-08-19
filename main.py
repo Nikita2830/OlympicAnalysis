@@ -122,7 +122,7 @@ if user_menu == 'Medal Tally':
 
         if user_menu == 'Athlete wise Analysis':
             athlete_df = df.drop_duplicates(subset=['Name', 'region'])
-
+#abcd
             x1 = athlete_df['Age'].dropna()
             x2 = athlete_df[athlete_df['Medal'] == 'Gold']['Age'].dropna()
             x3 = athlete_df[athlete_df['Medal'] == 'Silver']['Age'].dropna()
